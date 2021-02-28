@@ -1,0 +1,5 @@
+<div class="songs">
+  <songs-list [list]="listened$ | async" (toggle)="onToggle($event)">
+    Played
+  </songs-list>
+</div>
